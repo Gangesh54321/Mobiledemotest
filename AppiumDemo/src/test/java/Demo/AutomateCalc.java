@@ -20,7 +20,7 @@ public class AutomateCalc {
 				    capabilities.setCapability("deviceName","Gangesh");
 			        capabilities.setCapability("platformname", "Android");     
 			        capabilities.setCapability("automationName","uiautomator2");
-			        capabilities.setCapability("platformversion", "13");
+			        capabilities.setCapability("platformversion", "12");
 			        capabilities.setCapability("appPackage","com.google.android.calculator");
 			        capabilities.setCapability("appActivity", "com.android.calculator2.Calculator");
 			        
