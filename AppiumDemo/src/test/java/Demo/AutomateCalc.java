@@ -30,7 +30,7 @@ public class AutomateCalc {
 			        
 			        
 			        //click on number 9
-			       WebElement num9 =  driver.findElement(By.id("com.google.android.calculator:id/digit_9"));
+			       WebElement num9 =  driver.findElement(By.id("com.google.android.calculator:id/digit_7"));
 			       num9.click(); //perform click action on number 9
 			       
 			       //click on plus sign
@@ -38,7 +38,7 @@ public class AutomateCalc {
 			       mul.click(); //perform click action on number 8
 			    
 			        //click on number 2
-			       WebElement num5 =  driver.findElement(By.id("com.google.android.calculator:id/digit_5"));
+			       WebElement num5 =  driver.findElement(By.id("com.google.android.calculator:id/digit_3"));
 			       num5.click(); //perform click action on number 8
 			    
 			       
@@ -51,13 +51,13 @@ public class AutomateCalc {
 			       WebElement result =  driver.findElement(By.id("com.google.android.calculator:id/result_final"));
 			      String resultString = result.getText();
 			      
-			      if(resultString.equals("45"))
+			      if(resultString.equals("21"))
 			      {
 			    	  System.out.println("**************Pass********************");
 			      }
 			      else
 			      {
-			    	  System.out.println("fail");
+			    	  System.out.println("-------------fail-----------");
 			      }
 			      
 			    
