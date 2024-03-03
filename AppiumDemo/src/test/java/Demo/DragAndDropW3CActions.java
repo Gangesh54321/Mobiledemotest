@@ -107,6 +107,9 @@ private static Point getCenter(WebElement element)
 	
 	return center;
 	
+	//https://www.devstringx.com/automate-gestures-using-w3-actions-api-in-appium
+	//All W3c code avilble on this site.
+	
 }
 
 }
