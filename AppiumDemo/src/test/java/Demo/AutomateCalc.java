@@ -62,7 +62,7 @@ public class AutomateCalc {
 			      
 			    
 			 
-			        driver.quit();//Gangesh Mishra
+			        driver.quit();//Gangesh Mishra - it run fine.
 			        
 	}
 
