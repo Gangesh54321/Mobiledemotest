@@ -20,12 +20,12 @@ public class BrowserAutomation {
 		
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 		
-		   capabilities.setCapability("deviceName","OnePlus AC2001");
+		   capabilities.setCapability("deviceName","Gangesh");
 	        capabilities.setCapability("platformname", "Android");     
 	        capabilities.setCapability("automationName","uiautomator2");
 	        capabilities.setCapability("platformversion", "12");
 	        capabilities.setCapability("browserName", "Chrome");
-	        capabilities.setCapability("chromedriverExecutable","C:\\Users\\ASUS\\Desktop\\Appium\\AppiumDemo\\driver\\chromedriver-win64\\chromedriver.exe");;
+	        capabilities.setCapability("chromedriverExecutable","D:\\My Automation Jerney 2024\\Appium mobile testing\\Code studio 01 March 2024\\Apk file\\chromedriver.exe");
 	      //  capabilities.setCapability("appPackage","com.oneplus.calculator");
 	       // capabilities.setCapability("appActivity", "com.oneplus.calculator.Calculator");
 	        
